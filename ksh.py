@@ -5,7 +5,7 @@ import os
 # init variables
 username = os.getenv('username') # get the windows username
 pcname = os.environ['COMPUTERNAME'] # get the windows pc name
-version = "0.5.0"
+version = "0.5.1"
 
 # print welcome text and start the loop
 clear = lambda: os.system('cls')
